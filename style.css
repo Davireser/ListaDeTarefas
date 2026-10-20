@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#form-tarefa {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+#input-tarefa {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  background: #4a7dff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#lista-tarefas {
+  list-style: none;
+}
