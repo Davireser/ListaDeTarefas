@@ -48,3 +48,8 @@ button {
 #lista-tarefas {
   list-style: none;
 }
+
+#lista-tarefas li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
